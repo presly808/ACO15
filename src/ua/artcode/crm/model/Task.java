@@ -11,7 +11,7 @@ public class Task {
     private String title;
     private String description;
     private Manager owner;
-    private int status;
+    private int status = StatusCodes.NEW;
 
     private LocalDateTime creationTime;
     // hours

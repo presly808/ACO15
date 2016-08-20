@@ -11,7 +11,7 @@ import java.time.LocalDate;
 /**
  * Created by serhii on 14.08.16.
  */
-public class AppDB {
+public class AppDB implements IAppDB {
 
     private Array projects = new Array();
 
@@ -19,6 +19,7 @@ public class AppDB {
 
     private Array devs = new Array();
 
+    @Override
     public Project addProject(Project project) {
         LocalDate now = LocalDate.now();
         String projectId = project.getTitle() + "-"
@@ -30,22 +31,27 @@ public class AppDB {
         return project;
     }
 
+    @Override
     public Dev addDev(Dev dev) {
         return null;
     }
 
+    @Override
     public Manager addManager(Manager manager) {
         return null;
     }
 
+    @Override
     public Dev getDev(long id) {
         return null;
     }
 
+    @Override
     public Manager getManager(long id) {
         return null;
     }
 
+    @Override
     public Project getProject(String projectId) {
         Object[] objects = projects.getAll();
 
@@ -61,10 +67,12 @@ public class AppDB {
         return null;
     }
 
+    @Override
     public Task[] getAll() {
         return null;
     }
 
+    @Override
     public Project[] getProjects() {
 
         Object[] objects = projects.getAll();
@@ -77,6 +85,7 @@ public class AppDB {
         return projectsRet;
     }
 
+    @Override
     public Manager[] getManagers() {
 
         Object[] objects = managers.getAll();
@@ -87,6 +96,7 @@ public class AppDB {
         return projectsRet;
     }
 
+    @Override
     public Dev[] getDevs() {
         return null;
     }

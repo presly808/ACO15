@@ -1,10 +1,13 @@
 package ua.artcode.crm.run;
 
 import ua.artcode.crm.db.AppDB;
-import ua.artcode.crm.logic.BusinessLogicMethods;
+import ua.artcode.crm.db.IAppDB;
+import ua.artcode.crm.controller.IManagerController;
+import ua.artcode.crm.controller.ManagerControllerImpl;
 import ua.artcode.crm.model.Dev;
 import ua.artcode.crm.model.Manager;
 import ua.artcode.crm.model.Project;
+import ua.artcode.crm.view.LoginView;
 
 import java.util.Scanner;
 
@@ -15,32 +18,19 @@ public class RunProgram {
 
 
     public static void main(String[] args) {
-        AppDB appDB = new AppDB();
+        IAppDB appDB = new AppDB();
         appDB.addDev(new Dev("Ivan", "sdfsd"));
         appDB.addDev(new Dev("Yura", "2323"));
         appDB.addDev(new Dev("Rick", "234sfjjsd"));
-
-        appDB.addManager(new Manager("Olya", "sdfsdfs"));
         appDB.addManager(new Manager("Ira", "sdfsdfs"));
         appDB.addManager(new Manager("Serafima", "sdfsdfs"));
 
 
-        BusinessLogicMethods logicMethods = new BusinessLogicMethods(appDB);
+        IManagerController managerController = new ManagerControllerImpl(appDB);
 
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("Input your id");
-        String ownerId = scanner.nextLine();
-        System.out.println("Input project name");
-        String projectName = scanner.nextLine();
-        System.out.println("Input project description");
-        String projectDesc = scanner.nextLine();
-
-        Project created =
-                logicMethods.createProject(Long.parseLong(ownerId),
-                                            projectName, projectDesc);
-
-        System.out.println(created.asString());
+        LoginView loginView =
+                new LoginView(new Scanner(System.in),managerController);
+        loginView.start();
 
 
     }

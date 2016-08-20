@@ -1,19 +1,17 @@
-package ua.artcode.crm.logic;
+package ua.artcode.crm.controller;
 
-import ua.artcode.crm.db.AppDB;
+import ua.artcode.crm.db.IAppDB;
 import ua.artcode.crm.model.Project;
 import ua.artcode.crm.model.Task;
-
-import java.time.LocalDateTime;
 
 /**
  * Created by serhii on 14.08.16.
  */
-public class BusinessLogicMethods {
+public class ManagerControllerImpl implements IManagerController {
 
-    private AppDB appDB;
+    private IAppDB appDB;
 
-    public BusinessLogicMethods(AppDB appDB) {
+    public ManagerControllerImpl(IAppDB appDB) {
         this.appDB = appDB;
     }
 
