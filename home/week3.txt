@@ -1,0 +1,24 @@
+1. Finish all tasks in the started project
+
+
+2. Theory
+Exceptions(1 hour)
+https://youtu.be/zzzXOYZOzzo?list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd&t=2810
+
+Generics(1h 40m)
+https://youtu.be/3DMc8ROSWko?list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd
+
+(2 hours)
+final static class loading ArrayList Wrappers Comparable Comparator 
+https://youtu.be/KtlLMLR4mBI
+
+Java IO(2 hours)
+https://youtu.be/IKpUeEFQmkI?list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd
+
+3*.Future tasks = do some plan and try add new functional to the (if you will have free time)
+
+        - use exceptions
+        - use advanced filters for tickets (by name, by address, by price, by ownerName)
+        - fill up our db by test data
+        - save db to a file
+        - load db from a file       
