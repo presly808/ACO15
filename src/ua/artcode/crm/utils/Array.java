@@ -8,26 +8,34 @@ import java.util.Arrays;
 /**
  * Created by serhii on 14.08.16.
  */
-public class Array {
+public class Array<T> {
 
     public static final int DEFAULT_ARRAY_SIZE = 16;
 
-    private Object[] array;
+    private T[] array;
     private int index;
 
     public Array() {
-        array = new Object[DEFAULT_ARRAY_SIZE];
+        array = (T[]) new Object[DEFAULT_ARRAY_SIZE];
     }
 
-    public Object get(int index){
+    public Array(T[] array){
+        this.array = array;
+    }
+
+    public T get(int index){
+        if(index < 0 || index > index){
+            throw new WTFException("Index out of bounds");
+        }
+
         return array[index];
     }
 
-    public void set(int index, Object obj){
+    public void set(int index, T obj){
         array[index] = obj;
     }
 
-    public boolean add(Object obj){
+    public boolean add(T obj){
 
         if(obj == null){
             return false;
@@ -40,15 +48,19 @@ public class Array {
 
     private void ensureCapacity() {
         if(index >= array.length){
-            Object[] newArray = new Object[array.length * 2];
+            T[] newArray = (T[])new Object[array.length * 2];
             System.arraycopy(array,0,newArray,0,array.length);
             array = newArray;
         }
     }
 
-    public Object[] getAll(){
-        Object[] retArr = Arrays.copyOf(array, index);
+    public T[] getAll(){
+        T[] retArr = Arrays.copyOf(array, index);
         return retArr;
+    }
+
+    public int getSize(){
+        return index;
     }
 
 }
