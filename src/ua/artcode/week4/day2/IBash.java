@@ -3,9 +3,6 @@ package ua.artcode.week4.day2;
 import java.io.FileNotFoundException;
 import java.util.List;
 
-/**
- * Created by serhii on 28.08.16.
- */
 public interface IBash {
 
     // show file content
