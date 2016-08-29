@@ -1,0 +1,13 @@
+1. Finish and debug classwork 2 hours
+    Array + Generics + Exceptions
+    final + static (Immutable User with auto generation of id)
+
+2. Java IO(Implements next interface) 8 hours
+    ACO15/src/ua/artcode/week4/day2/IBash.java
+
+3. REQUIRED THEORY (repeat video actions)
+
+    Git history reverting
+    https://www.youtube.com/watch?v=ZQpkR9wLDyk&list=PLvmHg49t5OCSpYU_F1hFD1ufgQVduUHQW&index=9
+    Design Patterns and SOLID 2 hours
+    https://www.youtube.com/watch?v=QANaQU6iLh8&list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd&index=7

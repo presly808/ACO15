@@ -1,5 +1,6 @@
 package ua.artcode.week4.day2;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.List;
 
@@ -20,6 +21,26 @@ public interface IBash {
 
     boolean delete(String path);
 
+    boolean copy(String src, String dest);
+
     List<String> grep(String src, String keyWord);
+
+    //shallow copy
+    // use standard clone mechanism in java
+    Object clone(Object obj);
+
+    byte[] toByteArr(Object obj);
+
+    Object fromByteArr(byte[] arr);
+
+    // do deep copy via Java Serialization, use above methods
+    Object cloneDeep(Object obj);
+
+    void saveObjToFile(Object obj, String filePath);
+
+    void downloadFile(String url, String localPathName);
+
+    // implement recursive search (find in curr directory, then find in child dir, then repeat...)
+    List<String> find(File dir, String keyWord);
 
 }
