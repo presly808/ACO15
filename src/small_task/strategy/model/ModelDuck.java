@@ -4,7 +4,6 @@ package small_task.strategy.model;
 import small_task.strategy.behavior.fly.FlyNoWay;
 import small_task.strategy.behavior.quack.Quack;
 
-// Утка приманка
 public class ModelDuck extends Duck {
 
     public ModelDuck() {

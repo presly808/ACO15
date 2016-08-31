@@ -4,7 +4,6 @@ package small_task.strategy.model;
 import small_task.strategy.behavior.fly.FlyNoWay;
 import small_task.strategy.behavior.quack.Squeak;
 
-//Резиновая утка
 public class RubberDuck extends Duck {
 
     public RubberDuck() {
