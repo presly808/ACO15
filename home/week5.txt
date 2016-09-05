@@ -1,0 +1,18 @@
+2. Algorithms and Recursion (2,5 hours)
+    big O notation
+    https://www.youtube.com/watch?v=x8s_cab0MSk&list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd&index=8
+
+    2.1 Tasks(3 hours)
+    Minimum 10 exercises from
+    http://codingbat.com/java/Recursion-1
+
+3. Data Strucutures (2,5)
+   https://www.youtube.com/watch?v=__EutOsErSA&list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd&index=9  
+   
+    Implement NodeUtils (5 hours)
+    repo ACO15/src/ua/artcode/task/week5    
+
+    Try use recursion in every task   
+    If you have some undestanding problems, first code via loops then use recursion
+
+4*. Code and refactor our project 

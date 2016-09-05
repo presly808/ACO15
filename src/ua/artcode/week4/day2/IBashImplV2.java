@@ -1,9 +1,9 @@
 package ua.artcode.week4.day2;
 
+import ua.artcode.task.week4.IBash;
+
 import java.io.*;
-import java.nio.file.Files;
 import java.util.List;
-import java.util.stream.Stream;
 
 /**
  * Created by serhii on 28.08.16.

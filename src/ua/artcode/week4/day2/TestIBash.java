@@ -1,5 +1,7 @@
 package ua.artcode.week4.day2;
 
+import ua.artcode.task.week4.IBash;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;

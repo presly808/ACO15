@@ -8,6 +8,6 @@
 3. REQUIRED THEORY (repeat video actions)
 
     Git history reverting
-    https://www.youtube.com/watch?v=ZQpkR9wLDyk&list=PLvmHg49t5OCSpYU_F1hFD1ufgQVduUHQW&index=9
+    https://www.youtube.com/watNch?v=ZQpkR9wLDyk&list=PLvmHg49t5OCSpYU_F1hFD1ufgQVduUHQW&index=9
     Design Patterns and SOLID 2 hours
     https://www.youtube.com/watch?v=QANaQU6iLh8&list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd&index=7
