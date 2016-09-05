@@ -8,6 +8,7 @@ import java.util.List;
 /**
  * Created by serhii on 28.08.16.
  */
+
 public class IBashImpl implements IBash {
 
 
@@ -19,7 +20,7 @@ public class IBashImpl implements IBash {
         try {
             int singleCharCode = -1;
 
-            while ((singleCharCode = reader.read()) != -1){
+            while ((singleCharCode = reader.read()) != -1) {
                 res += (char) singleCharCode;
             }
 

@@ -53,9 +53,49 @@ public class IBashImplV2 implements IBash {
     }
 
     @Override
+    public boolean copy(String src, String dest) {
+        return false;
+    }
+
+    @Override
     public List<String> grep(String src, String keyWord) {
         
 
+        return null;
+    }
+
+    @Override
+    public Object clone(Object obj) {
+        return null;
+    }
+
+    @Override
+    public byte[] toByteArr(Object obj) {
+        return new byte[0];
+    }
+
+    @Override
+    public Object fromByteArr(byte[] arr) {
+        return null;
+    }
+
+    @Override
+    public Object cloneDeep(Object obj) {
+        return null;
+    }
+
+    @Override
+    public void saveObjToFile(Object obj, String filePath) {
+
+    }
+
+    @Override
+    public void downloadFile(String url, String localPathName) {
+
+    }
+
+    @Override
+    public List<String> find(File dir, String keyWord) {
         return null;
     }
 }
