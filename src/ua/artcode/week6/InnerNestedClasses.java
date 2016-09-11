@@ -31,7 +31,8 @@ public class InnerNestedClasses {
 
         Integer[] mas = {34,1,4,22,-4,11,34,55};
 
-        Arrays.sort(mas);
+        //javacsript analog - callback, pass function(method),
+        Arrays.sort(mas, myIntegerComparator1);
     }
 
     public static void test() {

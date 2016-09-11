@@ -1,17 +1,14 @@
 package ua.artcode.task.week5;
 
-/**
- * Created by serhii on 05.09.16.
- */
-public class Node {
+public class Node<T> {
 
-    public Object value;
-    public Node next;
+    public T value;
+    public Node<T> next;
 
     public Node() {
     }
 
-    public Node(Object value, Node next) {
+    public Node(T value, Node<T> next) {
         this.value = value;
         this.next = next;
     }

@@ -1,8 +1,11 @@
 package ua.artcode.week6.data_structures;
 
-public interface MyStack {
+import java.util.Iterator;
 
-    public static void main(String[] args) {
-    }
+public interface MyStack<T> extends Iterable<T> {
+
+    void push(T o);
+    T pop();
+    int size();
 
 }
