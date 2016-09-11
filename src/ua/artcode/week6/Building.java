@@ -1,5 +1,6 @@
 package ua.artcode.week6;
 
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 /**
@@ -11,6 +12,8 @@ public class Building {
     private List<Room> rooms;
 
     // nested - static class
+
+
     public static class Window {
         int height;
         int width;
@@ -20,6 +23,14 @@ public class Building {
             this.width = width;
         }
     }
+
+    public static class Some {
+        public static void main(String[] args) {
+            System.out.println("System out");
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat();
+        }
+    }
+
 
     private class Room {
         // use building info
