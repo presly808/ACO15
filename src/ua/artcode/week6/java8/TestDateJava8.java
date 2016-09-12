@@ -9,7 +9,6 @@ import java.time.temporal.TemporalField;
  */
 public class TestDateJava8 {
 
-
     public static void main(String[] args) {
         LocalDate localDate1 = LocalDate.of(1990, 19, 05);
         LocalDate localDate2 = LocalDate.now();

@@ -1,0 +1,16 @@
+Tasks 
+1. learn (8 hours)
+	java collections
+		(xmind file, download and open)
+		https://drive.google.com/file/d/0B3pUqYFBBsi-a0s0UHp1S1dOc0k/view
+		video
+		https://www.youtube.com/watch?v=U_xtKiYo1is&index=13&list=PLvmHg49t5OCQeODC20iDQpBOXFXHJz2em
+		https://www.youtube.com/watch?v=IQOqoWdcwpk&index=14&list=PLvmHg49t5OCQeODC20iDQpBOXFXHJz2em
+    after video, repeat all actions
+
+
+4. Learn GUI Swing
+	https://youtu.be/B0msJAN9O0c?list=PLvmHg49t5OCRWqG58bycrLoAr85e-e9dd (1 hour)
+
+5*. If you want more practice with java8, use next exersice 
+    from http://www.coreservlets.com/java-8-tutorial/
