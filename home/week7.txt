@@ -1,0 +1,8 @@
+1. Draw UML diagram, run, debug
+	discover every class, define goals of modules
+	
+	https://github.com/presly808/oopMarketTask
+
+	https://github.com/presly808/ACO14.NEWPOST
+
+2. Finish all prev. tasks and your project
